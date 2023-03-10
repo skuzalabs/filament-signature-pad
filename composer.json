@@ -1,12 +1,12 @@
 {
-    "name": "savannabits/filament-signature-pad",
+    "name": "skuzalabs/filament-signature-pad",
     "description": "Signature Pad Field for Filamentphp Forms",
     "keywords": [
-        "savannabits",
+        "skuzalabs",
         "laravel",
         "filament-signature-pad"
     ],
-    "homepage": "https://github.com/savannabits/filament-signature-pad",
+    "homepage": "https://github.com/skuzalabs/filament-signature-pad",
     "license": "MIT",
     "authors": [
         {
@@ -38,13 +38,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Savannabits\\SignaturePad\\": "src",
-            "Savannabits\\SignaturePad\\Database\\Factories\\": "database/factories"
+            "Skuzalabs\\SignaturePad\\": "src",
+            "Skuzalabs\\SignaturePad\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Savannabits\\SignaturePad\\Tests\\": "tests"
+            "Skuzalabs\\SignaturePad\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -67,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Savannabits\\SignaturePad\\SignaturePadServiceProvider"
+                "Skuzalabs\\SignaturePad\\SignaturePadServiceProvider"
             ],
             "aliases": {
-                "SignaturePad": "Savannabits\\SignaturePad\\Facades\\SignaturePad"
+                "SignaturePad": "Skuzalabs\\SignaturePad\\Facades\\SignaturePad"
             }
         }
     },

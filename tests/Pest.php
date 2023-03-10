@@ -1,5 +1,5 @@
 <?php
 
-use Savannabits\SignaturePad\Tests\TestCase;
+use Skuzalabs\SignaturePad\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

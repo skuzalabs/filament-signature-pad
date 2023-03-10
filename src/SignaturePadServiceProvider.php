@@ -1,6 +1,6 @@
 <?php
 
-namespace Savannabits\SignaturePad;
+namespace Skuzalabs\SignaturePad;
 
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;

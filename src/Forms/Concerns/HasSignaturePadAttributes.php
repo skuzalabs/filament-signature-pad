@@ -1,6 +1,6 @@
 <?php
 
-namespace Savannabits\SignaturePad\Forms\Concerns;
+namespace Skuzalabs\SignaturePad\Forms\Concerns;
 
 use Closure;
 

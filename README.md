@@ -1,9 +1,9 @@
 # Signature Pad Field for Filamentphp Forms
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/savannabits/filament-signature-pad.svg?style=flat-square)](https://packagist.org/packages/savannabits/filament-signature-pad)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/savannabits/filament-signature-pad/run-tests?label=tests)](https://github.com/savannabits/filament-signature-pad/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/savannabits/filament-signature-pad/Check%20&%20fix%20styling?label=code%20style)](https://github.com/savannabits/filament-signature-pad/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/savannabits/filament-signature-pad.svg?style=flat-square)](https://packagist.org/packages/savannabits/filament-signature-pad)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/skuzalabs/filament-signature-pad.svg?style=flat-square)](https://packagist.org/packages/skuzalabs/filament-signature-pad)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/skuzalabs/filament-signature-pad/run-tests?label=tests)](https://github.com/skuzalabs/filament-signature-pad/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/skuzalabs/filament-signature-pad/Check%20&%20fix%20styling?label=code%20style)](https://github.com/skuzalabs/filament-signature-pad/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/skuzalabs/filament-signature-pad.svg?style=flat-square)](https://packagist.org/packages/skuzalabs/filament-signature-pad)
 
 
 ![img.png](img.png)
@@ -22,7 +22,7 @@ composer require savannabits/filament-signature-pad
 
 You can now use the SignaturePad field in your form builder. 
 ```php
-    use Savannabits\SignaturePad\Forms\Components\Fields\SignaturePad;
+    use Skuzalabs\SignaturePad\Forms\Components\Fields\SignaturePad;
     public static function form(Form $form): Form
     {
         return $form
@@ -35,7 +35,7 @@ You can now use the SignaturePad field in your form builder.
 ```
 You can also set the Signature Pad Options as shown below. [See SignaturePad Options Docs](https://github.com/szimek/signature_pad#options) for more details.
 ```php
-    use Savannabits\SignaturePad\Forms\Components\Fields\SignaturePad;
+    use Skuzalabs\SignaturePad\Forms\Components\Fields\SignaturePad;
     public static function form(Form $form): Form
     {
         return $form
@@ -61,22 +61,9 @@ Upon Saving, the signature image is saved to the database as a png data url. Pla
 composer test
 ```
 
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
-
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
 ## Credits
 
 - [Sam Maosa](https://github.com/savannabits)
-- [All Contributors](../../contributors)
 
 ## License
 

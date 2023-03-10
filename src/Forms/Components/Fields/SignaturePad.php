@@ -1,9 +1,9 @@
 <?php
 
-namespace Savannabits\SignaturePad\Forms\Components\Fields;
+namespace Skuzalabs\SignaturePad\Forms\Components\Fields;
 
 use Filament\Forms\Components\Field;
-use Savannabits\SignaturePad\Forms\Concerns;
+use Skuzalabs\SignaturePad\Forms\Concerns;
 
 class SignaturePad extends Field
 {
