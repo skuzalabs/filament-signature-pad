@@ -15,7 +15,7 @@ A Signature Pad Field for the FilamentPHP Form Builder using [szimek/signature_p
 You can install the package via composer:
 
 ```bash
-composer require savannabits/filament-signature-pad
+composer require skuzalabs/filament-signature-pad
 ```
 
 ## Usage
