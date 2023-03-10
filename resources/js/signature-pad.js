@@ -33,7 +33,7 @@ document.addEventListener('alpine:init', () => {
                         this.signaturePad.fromDataURL(this.state, {ratio: this.ratio});
                     }
                     this.signaturePad.addEventListener("beginStroke", () => {
-                        console.log("Signature started");
+                        // console.log("Signature started");
                     }, {once: false});
                     this.signaturePad.addEventListener("endStroke", (e) => {
                         this.save();
