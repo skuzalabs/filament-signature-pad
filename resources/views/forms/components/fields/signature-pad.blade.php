@@ -21,7 +21,7 @@
         minDistance: '{{$getStrokeMinDistance()}}',
         penColor: '{{$getPenColor()}}',
         backgroundColor: '{{$getBackgroundColor()}}'
-    })" @resize.window="resizeCanvas" class="bg-white dark:bg-gray-800 rounded-lg p-1">
+    })" @resize.window="resizeCanvas" class="bg-white dark:bg-gray-800 rounded-lg p-1" wire:ignire>
         @if($isDisabled())
             <img class="w-full h-full border-2 border-gray-300 border-dashed rounded-md" :src="state" alt="sig">
         @else
